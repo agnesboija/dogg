@@ -1,0 +1,83 @@
+/* Grundläggande stil för hela sidan */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffaf7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #ffb6b9;
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.intro {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.reasons {
+  text-align: center;
+  padding: 20px;
+}
+
+.reasons ul {
+  list-style-type: "🐶 ";
+  padding-left: 0;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  text-align: left;
+}
+
+.reasons li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ffb6b9;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ff7a85;
+}
+
+.gallery {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+}
+
+.images img {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #ffd3d6;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
